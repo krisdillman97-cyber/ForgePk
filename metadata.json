@@ -1,0 +1,5 @@
+{
+  "name": "APK Forge",
+  "description": "A functional APK builder, compiler, and signer.",
+  "requestFramePermissions": []
+}
