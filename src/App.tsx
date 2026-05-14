@@ -4,24 +4,7 @@
  */
 
 import React, { useState, useEffect, useRef } from "react";
-import {
-  Hammer,
-  Package,
-  Download,
-  Terminal,
-  CheckCircle2,
-  AlertCircle,
-  Loader2,
-  Cpu,
-  ShieldCheck,
-  Sparkles,
-  ArrowRight,
-  ArrowLeft,
-  Smartphone,
-  RotateCcw,
-  Clock,
-  ChevronDown,
-} from "lucide-react";
+import { Hammer, Package, Download, Terminal, CircleCheck as CheckCircle2, CircleAlert as AlertCircle, Loader as Loader2, Cpu, ShieldCheck, Sparkles, ArrowRight, ArrowLeft, Smartphone, RotateCcw, Clock, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { GoogleGenAI } from "@google/genai";
 import { supabase, type ForgeProject } from "./supabase";
